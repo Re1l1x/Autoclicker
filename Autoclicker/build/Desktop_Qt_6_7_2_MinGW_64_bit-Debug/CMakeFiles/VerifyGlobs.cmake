@@ -3,7 +3,7 @@
 cmake_policy(SET CMP0009 NEW)
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -12,7 +12,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.c++")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.c++")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -21,7 +21,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.cc")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.cc")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -30,7 +30,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.ch")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.ch")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -39,11 +39,13 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.cpp")
 set(OLD_GLOB
+  "C:/Projects/Autoclicker/Autoclicker/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Autoclicker_autogen/EWIEGA46WW/moc_mainwindow.cpp"
+  "C:/Projects/Autoclicker/Autoclicker/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Autoclicker_autogen/mocs_compilation.cpp"
   "C:/Projects/Autoclicker/Autoclicker/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "C:/Projects/Autoclicker/Autoclicker/main.cpp"
-  "C:/Projects/Autoclicker/Autoclicker/mainwindow.cpp"
+  "C:/Projects/Autoclicker/main.cpp"
+  "C:/Projects/Autoclicker/mainwindow.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -51,7 +53,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.cxx")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.cxx")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -60,9 +62,11 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.h")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.h")
 set(OLD_GLOB
-  "C:/Projects/Autoclicker/Autoclicker/mainwindow.h"
+  "C:/Projects/Autoclicker/Autoclicker/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Autoclicker_autogen/include/ui_mainwindow.h"
+  "C:/Projects/Autoclicker/Autoclicker/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Autoclicker_autogen/moc_predefs.h"
+  "C:/Projects/Autoclicker/mainwindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -70,25 +74,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.h++")
-set(OLD_GLOB
-  )
-if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
-  message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Projects/Autoclicker/Autoclicker/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
-endif()
-
-# _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.hh")
-set(OLD_GLOB
-  )
-if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
-  message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Projects/Autoclicker/Autoclicker/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
-endif()
-
-# _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.hpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.h++")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -97,7 +83,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.hxx")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.hh")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -106,7 +92,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.java")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.hpp")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -115,7 +101,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.js")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.hxx")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -124,7 +110,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.jui")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.java")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -133,7 +119,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.qml")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.js")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -142,7 +128,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.qrc")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.jui")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -151,7 +137,7 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.qs")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.qml")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -160,9 +146,27 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/Autoclicker/*.ui")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.qrc")
 set(OLD_GLOB
-  "C:/Projects/Autoclicker/Autoclicker/mainwindow.ui"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Projects/Autoclicker/Autoclicker/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.qs")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Projects/Autoclicker/Autoclicker/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# _directory_contents at C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Projects/Autoclicker/*.ui")
+set(OLD_GLOB
+  "C:/Projects/Autoclicker/mainwindow.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

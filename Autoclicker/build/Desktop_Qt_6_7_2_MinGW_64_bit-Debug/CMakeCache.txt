@@ -21,7 +21,7 @@ Autoclicker_BINARY_DIR:STATIC=C:/Projects/Autoclicker/Autoclicker/build/Desktop_
 Autoclicker_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-Autoclicker_SOURCE_DIR:STATIC=C:/Projects/Autoclicker/Autoclicker
+Autoclicker_SOURCE_DIR:STATIC=C:/Projects/Autoclicker
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Qt/Tools/mingw1120_64/bin/addr2line.exe
@@ -433,7 +433,7 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=C:/Projects/Autoclicker/Autoclicker
+CMAKE_HOME_DIRECTORY:INTERNAL=C:/Projects/Autoclicker
 //ADVANCED property for variable: CMAKE_INSTALL_BINDIR
 CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_DATADIR
