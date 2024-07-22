@@ -1,0 +1,9 @@
+# ninja log v6
+8	681	7433676568001162	Autoclicker_autogen/timestamp	96ebdbb749a94f07
+8	681	7433676568001162	Autoclicker_autogen/mocs_compilation.cpp	96ebdbb749a94f07
+8	681	7433676568001162	C:/Projects/Autoclicker/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Autoclicker_autogen/timestamp	96ebdbb749a94f07
+8	681	7433676568001162	C:/Projects/Autoclicker/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Autoclicker_autogen/mocs_compilation.cpp	96ebdbb749a94f07
+688	2489	7433676568675220	CMakeFiles/Autoclicker.dir/main.cpp.obj	657f25f0d768a66e
+685	2530	7433676568641345	CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj	aa43ce6c94379b63
+691	4075	7433676568708066	CMakeFiles/Autoclicker.dir/mainwindow.cpp.obj	2effbdcb73be0bc8
+4076	4203	7433676602552699	Autoclicker.exe	4aadf8cd0650544f
