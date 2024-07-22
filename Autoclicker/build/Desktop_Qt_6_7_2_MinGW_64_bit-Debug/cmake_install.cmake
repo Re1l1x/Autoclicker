@@ -1,4 +1,4 @@
-# Install script for directory: C:/Projects/Autoclicker/Autoclicker
+# Install script for directory: C:/Projects/Autoclicker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
